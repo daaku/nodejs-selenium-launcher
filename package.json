@@ -1,0 +1,21 @@
+{
+  "name": "selenium-launcher",
+  "description": "A library to download and launch the Selenium Server.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nshah/nodejs-selenium-launcher",
+  "author": "Naitik Shah <n@daaku.org>",
+  "main": "lib/selenium-launcher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nshah/nodejs-selenium-launcher"
+  },
+  "scripts": { "test": "NODE_PATH=./lib ./node_modules/.bin/mocha --ui exports" },
+  "dependencies": {
+    "request": ">= 2.9.100",
+    "hash_file": ">= 0.0.7"
+  },
+  "devDependencies": {
+    "mocha": ">= 0.12.0"
+  },
+  "engines": { "node": ">= 0.6.10" }
+}
