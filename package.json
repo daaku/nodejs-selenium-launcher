@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/nshah/nodejs-selenium-launcher"
   },
-  "scripts": { "test": "NODE_PATH=./lib ./node_modules/.bin/mocha --ui exports --timeout 50000 --slow 5000 --ignore-leaks" },
+  "scripts": { "test": "NODE_PATH=./lib ./node_modules/.bin/mocha --ui exports --timeout 150000 --slow 5000 --ignore-leaks" },
   "dependencies": {
     "request": ">= 2.9.100",
     "hash_file": ">= 0.0.7"
