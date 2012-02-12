@@ -2,16 +2,14 @@ var soda = require('soda')
   , seleniumLauncher = require('selenium-launcher')
 
 exports['sanity'] = function(done) {
-  var selenium = null
-  seleniumLauncher(function(er, s) {
+  seleniumLauncher(function(er, selenium) {
     if (er) return done(er)
-    selenium = s
     selenium.on('exit', function() { done() })
 
     soda.createClient({
       url: 'http://www.facebook.com/',
-      host: '127.0.0.1',
-      port: 4444,
+      host: selenium.host,
+      port: selenium.port,
     })
     .chain
     .session()
