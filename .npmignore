@@ -1,6 +1,7 @@
 .gitignore
 .npmignore
 .tags
+/lib/selenium-server-standalone-*.jar
 lib-cov/
 node_modules/
 npm-debug.log
