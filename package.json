@@ -1,7 +1,7 @@
 {
   "name": "selenium-launcher",
   "description": "A library to download and launch the Selenium Server.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "homepage": "https://github.com/nshah/nodejs-selenium-launcher",
   "author": "Naitik Shah <n@daaku.org>",
   "main": "lib/selenium-launcher",
