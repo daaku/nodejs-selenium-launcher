@@ -25,7 +25,7 @@ describe("sanity", function(){
       .end(function() {
         selenium.kill()
       })
-    })    
+    })
   });
 
 
