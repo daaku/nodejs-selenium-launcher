@@ -2,12 +2,12 @@
   "name": "selenium-launcher",
   "description": "A library to download and launch the Selenium Server.",
   "version": "1.1.2",
-  "homepage": "https://github.com/nshah/nodejs-selenium-launcher",
+  "homepage": "https://github.com/daaku/nodejs-selenium-launcher",
   "author": "Naitik Shah <n@daaku.org>",
   "main": "lib/selenium-launcher",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nshah/nodejs-selenium-launcher"
+    "url": "https://github.com/daaku/nodejs-selenium-launcher"
   },
   "scripts": { "test": "NODE_PATH=./lib mocha --ui exports --timeout 150000 --slow 5000 --ignore-leaks" },
   "dependencies": {
