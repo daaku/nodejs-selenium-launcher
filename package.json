@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/daaku/nodejs-selenium-launcher"
   },
-  "scripts": { "test": "NODE_PATH=./lib mocha --timeout 150000 --slow 5000 --ignore-leaks" },
+  "scripts": { "test": "mocha --timeout 150000 --slow 5000 --ignore-leaks" },
   "dependencies": {
     "freeport": "1.0.x",
     "request": "2.9.x",
