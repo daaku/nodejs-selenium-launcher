@@ -16,8 +16,8 @@
     "hash_file": "0.0.x"
   },
   "devDependencies": {
-    "mocha": "0.12.x",
+    "mocha": "1.x.x",
     "soda": "0.2.x"
   },
-  "engines": { "node": "0.6.x" }
+  "engines": { "node": ">= 0.6.x" }
 }

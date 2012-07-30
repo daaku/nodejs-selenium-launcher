@@ -10,3 +10,8 @@ require('selenium-launcher').launch(function(er, selenium) {
   // selenium is a child process, so you can do selenium.kill()
 })
 ```
+
+Testing
+---
+
+    node_modules/.bin/mocha -t 20000
