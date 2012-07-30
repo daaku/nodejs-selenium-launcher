@@ -14,4 +14,6 @@ require('selenium-launcher').launch(function(er, selenium) {
 Testing
 ---
 
-    node_modules/.bin/mocha -t 20000
+```sh
+npm test
+```
