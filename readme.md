@@ -11,6 +11,21 @@ require('selenium-launcher').launch(function(er, selenium) {
 })
 ```
 
+Forcing selenium server version
+---
+
+You can override the selenium server version used by the launcer
+ via the environment variable
+
+```bash
+SELENIUM_VERSION=2.31.0:63ef65e773015783a7828be201cc54988019adce node app.js
+```
+
+You'll have to supply a valid sha for the version.
+
+A list of selenium-server jar's and their sha can be found on https://code.google.com/p/selenium/downloads/list
+
+
 Testing
 ---
 
