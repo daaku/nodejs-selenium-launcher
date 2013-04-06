@@ -23,7 +23,8 @@ SELENIUM_VERSION=2.31.0:63ef65e773015783a7828be201cc54988019adce node app.js
 
 You'll have to supply a valid sha for the version.
 
-A list of selenium-server jar's and their sha can be found on https://code.google.com/p/selenium/downloads/list
+A list of selenium-server jar's and their sha can be found on
+https://code.google.com/p/selenium/downloads/list
 
 
 Testing
