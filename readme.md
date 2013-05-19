@@ -4,7 +4,8 @@ selenium-launcher [![Build Status](https://secure.travis-ci.org/daaku/nodejs-sel
 A library to download and launch the Selenium Server.
 
 ```javascript
-require('selenium-launcher').launch(function(er, selenium) {
+var seleniumLauncher = require('selenium-launcher')
+seleniumLauncher(function(er, selenium) {
   // selenium is running
   // selenium.host / selenium.port are available
   // selenium is a child process, so you can do selenium.kill()
@@ -18,7 +19,7 @@ You can override the selenium server version used by the launcer
  via the environment variable
 
 ```bash
-SELENIUM_VERSION=2.31.0:63ef65e773015783a7828be201cc54988019adce node app.js
+SELENIUM_VERSION=2.32.0:c94e6d5392b687d3a141a35f5a489f50f01bef6a node app.js
 ```
 
 You'll have to supply a valid sha for the version.
